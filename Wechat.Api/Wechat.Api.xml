@@ -1,0 +1,446 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>Wechat.Api</name>
+    </assembly>
+    <members>
+        <member name="T:Wechat.Api.Beans.Friends.AddFriendReq">
+            <summary>
+            添加微信好友
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.AddFriendReq.UserNameV1">
+            <summary>
+            添加微信好友用户V1数据
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.AddFriendReq.AntispamTicket">
+            <summary>
+            添加微信好友用户的票证数据
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.AddFriendReq.Content">
+            <summary>
+            内容
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.AddFriendReq.Origin">
+            <summary>
+            来源 1来源QQ2来源邮箱3来源微信号14群聊15手机号18附近的人25漂流瓶29摇一摇30二维码13来源通讯录
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactWxIds.WxIds">
+            <summary>
+            好友的微信Id列表
+            </summary>
+        </member>
+        <member name="T:Wechat.Api.Beans.Friends.ContactProfile">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.WxId">
+            <summary>
+            微信Id
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.NickName">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.WeiboNickname">
+            <summary>
+            微博昵称
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.Country">
+            <summary>
+            国家
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.City">
+            <summary>
+            城市
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.BigHeadImgUrl">
+            <summary>
+            大头像url
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.SmallHeadImgUrl">
+            <summary>
+            小头像url
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.IDCardNum">
+            <summary>
+            身份证号码
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.RealName">
+            <summary>
+            真实姓名
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.Alias">
+            <summary>
+            别名
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.Description">
+            <summary>
+            描述
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.Sex">
+            <summary>
+            性别
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ContactProfile.CardImgUrl">
+            <summary>
+            卡图片地址
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.InitContactReq.Buffer">
+            <summary>
+            buffer
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.InitContactReq.SyncKey">
+            <summary>
+            同步Key
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.InitContactResp.InitResponse">
+            <summary>
+            消息
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.InitContactResp.Buffer">
+            <summary>
+            buffer
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.InitContactResp.SyncKey">
+            <summary>
+            同步Key
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ListContactReq.CurrentWxcontactSeq">
+            <summary>
+            好友分页
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ListContactReq.CurrentChatRoomContactSeq">
+            <summary>
+            群分页
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ListContactResp.Contacts">
+            <summary>
+            联系人
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Friends.ListContactResp.CurrentWxcontactSeq">
+            <summary>
+            分页
+            </summary>
+        </member>
+        <member name="T:Wechat.Api.Beans.Login.CheckLoginResp">
+            <summary>
+            检查登陆
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.CheckLoginResp.Uuid">
+            <summary>
+            UuId
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.CheckLoginResp.WxId">
+            <summary>
+            微信Id
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.CheckLoginResp.NickName">
+            <summary>
+            昵称
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.CheckLoginResp.State">
+            <summary>
+            状态 -1失效 0:未扫码 1：扫码 2：登陆
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.CheckLoginResp.Device">
+            <summary>
+            设备Id
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.CheckLoginResp.HeadUrl">
+            <summary>
+            头像Url
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.CheckLoginResp.Mobile">
+            <summary>
+            手机
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.CheckLoginResp.Email">
+            <summary>
+            邮箱
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.CheckLoginResp.Alias">
+            <summary>
+            别名
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.GetLoginQrCodeReq.Proxy">
+            <summary>
+            代理
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.GetLoginQrCodeReq.DeviceId">
+            <summary>
+            设备Id
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.GetLoginQrCodeReq.DeviceName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.LoginWith62Req.Username">
+            <summary>
+            微信用户名
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.LoginWith62Req.Password">
+            <summary>
+            微信密码
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.LoginWith62Req.Data62">
+            <summary>
+            62数据
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Login.LoginWith62Req.DeviceName">
+            <summary>
+            设备名称
+            </summary>
+        </member>
+        <member name="T:Wechat.Api.Beans.Message.ImageMessage">
+            <summary>
+            图片消息
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.ImageMessage.ToWxIds">
+            <summary>
+            接收的微信ID
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.ImageMessage.Base64">
+            <summary>
+            图片Base64
+            </summary>
+        </member>
+        <member name="T:Wechat.Api.Beans.Message.TxtMessage">
+            <summary>
+            文本消息
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.TxtMessage.ToWxIds">
+            <summary>
+            发送的微信ID
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.TxtMessage.Content">
+            <summary>
+            发送内容
+            </summary>
+        </member>
+        <member name="T:Wechat.Api.Beans.Message.VideoMessage">
+            <summary>
+            视频消息
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.VideoMessage.ToWxIds">
+            <summary>
+            发送的微信ID
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.VideoMessage.PlayLength">
+            <summary>
+            播放时长 秒
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.VideoMessage.Base64">
+            <summary>
+            视频base64
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.VideoMessage.ImageBase64">
+            <summary>
+            封面base64
+            </summary>
+        </member>
+        <member name="T:Wechat.Api.Beans.Message.VoiceMessage">
+            <summary>
+            声音消息
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.VoiceMessage.ToWxIds">
+            <summary>
+            发送的微信ID
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.VoiceMessage.VoiceSecond">
+            <summary>
+            声音秒数
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.VoiceMessage.Base64">
+            <summary>
+            Base4声音
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.Message.VoiceMessage.FileName">
+            <summary>
+            文件名
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.ProxyInfo.Ip">
+            <summary>
+            代理Ip
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.ProxyInfo.Username">
+            <summary>
+            代理用户名
+            </summary>
+        </member>
+        <member name="P:Wechat.Api.Beans.ProxyInfo.Password">
+            <summary>
+            代理密码
+            </summary>
+        </member>
+        <member name="M:Wechat.Api.Controllers.LoginController.GetQrCode(Wechat.Api.Beans.Login.GetLoginQrCodeReq)">
+            <summary>
+            获取登录二维码
+            </summary>
+        </member>
+        <member name="M:Wechat.Api.Controllers.LoginController.CheckLogin(System.String)">
+            <summary>
+            检查登录状态
+            </summary>
+            <param name="qrCodeId">二维码ID</param>
+        </member>
+        <member name="M:Wechat.Api.Controllers.LoginController.HeartBeat(System.String)">
+            <summary>
+            心跳
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechat.Api.Controllers.LoginController.LoginOut(System.String)">
+            <summary>
+            退出登录
+            </summary>
+            <param name="wxid"></param>
+        </member>
+        <member name="M:Wechat.Api.Controllers.MessageController.SendTxtMessage(System.String,Wechat.Api.Beans.Message.TxtMessage)">
+            <summary>
+            发送文本信息
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechat.Api.Controllers.MessageController.SendVoiceMessage(System.String,Wechat.Api.Beans.Message.VoiceMessage)">
+            <summary>
+            发送语音信息
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechat.Api.Controllers.MessageController.SendImageMessage(System.String,Wechat.Api.Beans.Message.ImageMessage)">
+            <summary>
+            发送图片信息
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:Wechat.Api.Controllers.MessageController.SendVideoMessage(System.String,Wechat.Api.Beans.Message.VideoMessage)">
+            <summary>
+            发送视频信息
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+            <param name="msg"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.Api.Controllers.FriendsController.InitContract(System.String,Wechat.Api.Beans.Friends.InitContactReq)">
+            <summary>
+             初始化好友列表
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+        </member>
+        <member name="M:WeChat.Api.Controllers.FriendsController.ListContract(System.String,Wechat.Api.Beans.Friends.ListContactReq)">
+            <summary>
+             获取联系人列表
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+        </member>
+        <member name="M:WeChat.Api.Controllers.FriendsController.GetSelfProfile(System.String)">
+            <summary>
+            获取自己简介信息
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.Api.Controllers.FriendsController.BatchGetContractProfiles(System.String,Wechat.Api.Beans.Friends.ContactWxIds)">
+            <summary>
+            批量获取好友简介
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.Api.Controllers.FriendsController.BatchGetContractHeadImg(System.String,Wechat.Api.Beans.Friends.ContactWxIds)">
+            <summary>
+            批量获取微信头像
+            </summary>
+            <param name="wxid"></param>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.Api.Controllers.FriendsController.BatchGetContractDetail(System.String,Wechat.Api.Beans.Friends.ContactWxIds)">
+            <summary>
+            批量获取好友详情
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+            <param name="req"></param>
+            <returns></returns>
+        </member>
+        <member name="M:WeChat.Api.Controllers.FriendsController.Search(System.String,System.String)">
+            <summary>
+             搜索微信用户
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+            <param name="searchKey">手机号，微信号，QQ号</param>
+        </member>
+        <member name="M:WeChat.Api.Controllers.FriendsController.SendRequest(System.String,Wechat.Api.Beans.Friends.AddFriendReq)">
+            <summary>
+            发送添加好友请求
+            </summary>
+            <param name="wxid">已登录的wxid</param>
+            <param name="req"></param>
+        </member>
+    </members>
+</doc>

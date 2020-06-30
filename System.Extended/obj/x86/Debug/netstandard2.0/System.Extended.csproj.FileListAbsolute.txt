@@ -1,0 +1,7 @@
+D:\XuChao\GitHome\Geek\WechatHelper708\System.Extended\bin\x86\Debug\netstandard2.0\System.Extended.deps.json
+D:\XuChao\GitHome\Geek\WechatHelper708\System.Extended\bin\x86\Debug\netstandard2.0\System.Extended.dll
+D:\XuChao\GitHome\Geek\WechatHelper708\System.Extended\bin\x86\Debug\netstandard2.0\System.Extended.pdb
+D:\XuChao\GitHome\Geek\WechatHelper708\System.Extended\obj\x86\Debug\netstandard2.0\System.Extended.AssemblyInfoInputs.cache
+D:\XuChao\GitHome\Geek\WechatHelper708\System.Extended\obj\x86\Debug\netstandard2.0\System.Extended.AssemblyInfo.cs
+D:\XuChao\GitHome\Geek\WechatHelper708\System.Extended\obj\x86\Debug\netstandard2.0\System.Extended.dll
+D:\XuChao\GitHome\Geek\WechatHelper708\System.Extended\obj\x86\Debug\netstandard2.0\System.Extended.pdb

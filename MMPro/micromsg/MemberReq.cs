@@ -1,0 +1,32 @@
+using ProtoBuf;
+using System;
+
+namespace micromsg
+{
+	[ProtoContract(Name = "MemberReq")]
+	[Serializable]
+	public class MemberReq : IExtensible
+	{
+		private SKBuiltinString_t _MemberName;
+
+		private IExtension extensionObject;
+
+		[ProtoMember(1, IsRequired = true, Name = "MemberName", DataFormat = DataFormat.Default)]
+		public SKBuiltinString_t MemberName
+		{
+			get
+			{
+				return this._MemberName;
+			}
+			set
+			{
+				this._MemberName = value;
+			}
+		}
+
+		IExtension IExtensible.GetExtensionObject(bool createIfMissing)
+		{
+			return Extensible.GetExtensionObject(ref this.extensionObject, createIfMissing);
+		}
+	}
+}

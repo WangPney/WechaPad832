@@ -1,0 +1,113 @@
+{
+  "version": 3,
+  "targets": {
+    ".NETFramework,Version=v4.6.1": {
+      "System.Extended/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/System.Extended.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/System.Extended.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win": {
+      "System.Extended/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/System.Extended.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/System.Extended.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x64": {
+      "System.Extended/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/System.Extended.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/System.Extended.dll": {}
+        }
+      }
+    },
+    ".NETFramework,Version=v4.6.1/win-x86": {
+      "System.Extended/1.0.0": {
+        "type": "project",
+        "framework": ".NETStandard,Version=v2.0",
+        "compile": {
+          "bin/placeholder/System.Extended.dll": {}
+        },
+        "runtime": {
+          "bin/placeholder/System.Extended.dll": {}
+        }
+      }
+    }
+  },
+  "libraries": {
+    "System.Extended/1.0.0": {
+      "type": "project",
+      "path": "../System.Extended/System.Extended.csproj",
+      "msbuildProject": "../System.Extended/System.Extended.csproj"
+    }
+  },
+  "projectFileDependencyGroups": {
+    ".NETFramework,Version=v4.6.1": [
+      "System.Extended >= 1.0.0"
+    ]
+  },
+  "packageFolders": {
+    "C:\\Users\\wande\\.nuget\\packages\\": {}
+  },
+  "project": {
+    "version": "1.0.0",
+    "restore": {
+      "projectUniqueName": "D:\\XuChao\\GitHome\\Geek\\WechatHelper708\\ClassLibrary\\ClassLibrary.csproj",
+      "projectName": "ClassLibrary",
+      "projectPath": "D:\\XuChao\\GitHome\\Geek\\WechatHelper708\\ClassLibrary\\ClassLibrary.csproj",
+      "packagesPath": "C:\\Users\\wande\\.nuget\\packages\\",
+      "outputPath": "D:\\XuChao\\GitHome\\Geek\\WechatHelper708\\ClassLibrary\\obj\\",
+      "projectStyle": "PackageReference",
+      "configFilePaths": [
+        "C:\\Users\\wande\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+      ],
+      "originalTargetFrameworks": [
+        "net461"
+      ],
+      "sources": {
+        "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+        "https://api.nuget.org/v3/index.json": {}
+      },
+      "frameworks": {
+        "net461": {
+          "projectReferences": {
+            "D:\\XuChao\\GitHome\\Geek\\WechatHelper708\\System.Extended\\System.Extended.csproj": {
+              "projectPath": "D:\\XuChao\\GitHome\\Geek\\WechatHelper708\\System.Extended\\System.Extended.csproj"
+            }
+          }
+        }
+      }
+    },
+    "frameworks": {
+      "net461": {}
+    },
+    "runtimes": {
+      "win": {
+        "#import": []
+      },
+      "win-x64": {
+        "#import": []
+      },
+      "win-x86": {
+        "#import": []
+      }
+    }
+  }
+}
