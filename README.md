@@ -14,9 +14,10 @@ C#版本，7.0.10版本，市场卖3W的，免费研究学习。
 仅供自己学习研究使用，引起任何法律纠纷概不负责
 
 ### 接口文档(服务器低配置，仅供测试用)
-http://49.234.86.244:8080/
+<a href="http://49.234.86.244:8080/" target="_blank">http://49.234.86.244:8080/</a>
 
 ### 交流微信（go版本，线上稳定7.0.13版本）
-![image](https://github.com/PonyCx/WechatHelper7010/blob/master/1.jpg)
+ <img src="https://github.com/PonyCx/WechatHelper7010/blob/master/1.jpg" width = "350" height = "350" alt="" align=center />
+
 
 
