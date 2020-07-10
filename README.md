@@ -17,6 +17,6 @@ C#版本，7.0.10版本，市场卖3W的，免费研究学习。
 http://49.234.86.244:8080/
 
 ### 交流微信（go版本，线上稳定7.0.13版本）
-
+![image](https://github.com/PonyCx/WechatHelper7010/blob/master/1.jpg)
 
 
